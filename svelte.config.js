@@ -1,4 +1,3 @@
-import { dev } from "$app/environment";
 import adapter from "@sveltejs/adapter-static";
 import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 

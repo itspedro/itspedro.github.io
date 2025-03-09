@@ -19,9 +19,7 @@ jobs:
       - name: Install dependencies
         run: bun install
 
-      - name: build
-        env:
-          BASE_PATH: "/"
+      - name: build¥
         run: |
           bun run build
           touch build/.nojekyll

@@ -15,7 +15,7 @@
     <iframe
         title="my age"
         src="https://itspedro.github.io/age"
-        width="400"
+        width="50%"
         height="50"
         class="mx-auto"
     ></iframe>

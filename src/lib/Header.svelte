@@ -19,7 +19,7 @@
     >
         <iframe
             title="my age"
-            src="https://itspedro.github.io/age/age-badge.svg"
+            src="https://itspedro.github.io/age/"
             width="50%"
             height="30"
             class="mx-auto"

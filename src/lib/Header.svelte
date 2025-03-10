@@ -11,13 +11,20 @@
         <p class="font-bold hover:opacity-50">:p</p>
     </a>
 
-    <iframe
-        title="my age"
-        src="https://itspedro.github.io/age/age-badge.svg"
-        width="50%"
-        height="30"
-        class="mx-auto"
-    ></iframe>
+    <a
+        href="https://itspedro.github.io/age/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="My age"
+    >
+        <iframe
+            title="my age"
+            src="https://itspedro.github.io/age/age-badge.svg"
+            width="50%"
+            height="30"
+            class="mx-auto"
+        ></iframe>
+    </a>
 
     <nav class="flex flex-row gap-5">
         <a

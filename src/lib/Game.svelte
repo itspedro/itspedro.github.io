@@ -4,7 +4,7 @@
     // Grid configuration
     let cols: number = 100; // Default value before browser
     let rows: number = 60; // Default value before browser
-    let cellSize: number = 15;
+    let cellSize: number = 2;
     let grid: boolean[][] = [];
     let nextGrid: boolean[][] = [];
     let animationTimer: number;
@@ -38,7 +38,7 @@
             for (let j = 0; j < cols; j++) {
                 // Only generate random cells on left and right sides
                 if (j < leftColumnEnd || j >= rightColumnStart) {
-                    grid[i][j] = Math.random() > 0.8; // 20% chance of a cell being alive
+                    grid[i][j] = Math.random() > 0.93;
                 }
                 // Center remains empty (cells are already false from initialization)
             }
@@ -107,14 +107,14 @@
         ctx.clearRect(0, 0, canvas.width, canvas.height);
 
         // Draw cells
-        ctx.strokeStyle = "#b6b6b6cc";
-        ctx.lineWidth = 1;
+        ctx.fillStyle = "#f6f6f6cc";
+        // ctx.lineWidth = 1;
 
         for (let i = 0; i < grid.length; i++) {
             for (let j = 0; j < grid[i].length; j++) {
                 if (grid[i][j]) {
                     ctx.beginPath();
-                    ctx.rect(
+                    ctx.fillRect(
                         j * cellSize,
                         i * cellSize,
                         cellSize - 1,

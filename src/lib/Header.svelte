@@ -5,18 +5,17 @@
 </script>
 
 <header
-    class="flex flex-row items-center justify-between w-11/12 md:w-1/2 mx-auto px-4 py-7 border-b border-b-white"
+    class="flex flex-row items-center justify-between w-11/12 mx-auto px-4 py-7"
 >
     <a href="/">
-        <p class="font-bold hover:opacity-50">@itspedro</p>
-        <span class="font-thin text-gray-300"> dev </span>
+        <p class="font-bold hover:opacity-50">:p</p>
     </a>
 
     <iframe
         title="my age"
-        src="https://itspedro.github.io/age"
+        src="https://itspedro.github.io/age/age-badge.svg"
         width="50%"
-        height="50"
+        height="30"
         class="mx-auto"
     ></iframe>
 
@@ -25,6 +24,7 @@
             class="hover:opacity-50"
             href="https://linkedin.com/in/itspedro"
             target="_blank"
+            rel="noopener noreferrer"
         >
             <LinkedIn />
         </a>
@@ -32,6 +32,7 @@
             class="hover:opacity-50"
             href="https://github.com/itspedro"
             target="_blank"
+            rel="noopener noreferrer"
         >
             <GitHub />
         </a>

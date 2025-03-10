@@ -8,6 +8,6 @@
 <style lang="postcss">
     :global(body) {
         background: #000000;
-        color: #ffffff;
+        color: #f6f6f6;
     }
 </style>

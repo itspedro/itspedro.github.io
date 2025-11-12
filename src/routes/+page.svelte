@@ -1,7 +1,8 @@
-<script>
+<script lang="ts">
     import Home from "$lib/Home.svelte";
-    import GameOfLife from "$lib/Game.svelte";
+    let { data } = $props();
+    const articles = data?.articles ?? [];
+    const introHtml = data?.introHtml ?? "";
 </script>
 
-<Home />
-<GameOfLife />
+<Home {articles} {introHtml} />
